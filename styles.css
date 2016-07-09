@@ -1,5 +1,13 @@
+html {
+  height: 100%;
+}
+
 body {
-  background-color: lightgrey;
+  height: 100%;
+  margin: 0;
+  background: linear-gradient(#3a7bd5, #00d2ff);
+  background-repeat: no-repeat;
+  background-attachment: fixed
 }
 
 h1 {
@@ -16,7 +24,7 @@ a:visited {
 }
 
 a:hover {
-  color: #2A5DB0;
+  color: lightgrey;
 }
 
 p {
