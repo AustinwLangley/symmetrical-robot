@@ -42,3 +42,20 @@ p {
 pre {
     text-align: center;
 }
+
+.image {
+  text-align: center;
+}
+
+.imageNotes {
+  margin-top: 20px;
+}
+
+.fullSizeImage{
+  margin-top: 20px;
+}
+
+#wrapper, #img{
+    width:100%;
+    height: 100%;
+}
