@@ -8,7 +8,11 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
+nav {
+  height: 75px;
+  background-color: lightyellow;
+  margin: 0px;
+}
 h1 {
   text-align: center;
 }
