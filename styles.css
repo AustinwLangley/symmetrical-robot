@@ -130,5 +130,10 @@ footer {
 }
 
 .footer-text {
-  padding-top: 10px;
+  padding: 10px;
+}
+
+#back-top {
+
+  padding: 20px;
 }

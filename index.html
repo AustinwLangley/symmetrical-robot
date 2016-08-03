@@ -7,21 +7,22 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body>
-  <header role="banner">
+  <header role="banner" id="top">
     <h1><a href="http://ctrlcollective.com/" title="Ctrl Collective page" target="_blank" rel="work">Ctrl Collective Project Test (h1-tag)</a></h1>
    <nav role="navigation">
         <ul>
             <li><a href="#" title="Home page">Home</a></li>
-            <li><a href="#" title="About page">About us</a></li>
-            <li><a href="#" title="Contact page">Contact us</a></li>
+            <li><a href="#about" title="About page">About us</a></li>
+            <li><a href="#contact" title="Contact page">Contact us</a></li>
             <li><a href="http://www.cnn.com" target="_blank" title="The news">Today's News</a></li>
+            <li><a href="https://www.w3.org/TR/html5/browsers.html#scroll-to-fragid" title="W3C fragment identifiers">Fragment Identifiers</a></li>
         </ul>   
    </nav>
    </header>
    <main role="main">
    <article role="article">  
         <header>
-        <h2>Main Subheading (h2-tag)</h2>
+        <h2 id="about"> About us Main Subheading (h2-tag)</h2>
         </header> 
         <section>
           <h3>Subheading 1 (h3-tag)</h3>
@@ -47,7 +48,7 @@
             <p class="imageNotes">The align attribute for images is deprecated, use css instead, also the alt tag is a must for screen readers.</p>
           </section>
           <section>
-          <h3>Subheading 2 (h3-tag)</h3>
+          <h3 id="contact">Contact Us Subheading 2 (h3-tag)</h3>
             <p><em>Lorem ipsum</em> dolor sit amet, <strong>consectetur</strong> adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad nonbreaking&nbsp;space minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -88,7 +89,8 @@
       <div class="divTwo"></div>
       <div class="divThree"></div>
       <footer role="contentinfo" style="text-align: center">
-        <p class="footer-text">Created by Bouses.</p>  
+        <p class="footer-text">Created by Bouses.</p>
+        <p><a href="#top" title="back to the top" id="back-top">Back to top</a></p>  
       </footer>
   </body>
 </html>
