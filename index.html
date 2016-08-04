@@ -10,12 +10,12 @@
   <header role="banner" id="top">
     <h1><a href="http://ctrlcollective.com/" title="Ctrl Collective page" target="_blank" rel="work">Ctrl Collective Project Test (h1-tag)</a></h1>
    <nav role="navigation">
-        <ul>
-            <li><a href="#" title="Home page">Home</a></li>
-            <li><a href="#about" title="About page">About us</a></li>
-            <li><a href="#contact" title="Contact page">Contact us</a></li>
-            <li><a href="http://www.cnn.com" target="_blank" title="The news">Today's News</a></li>
-            <li><a href="https://www.w3.org/TR/html5/browsers.html#scroll-to-fragid" title="W3C fragment identifiers">Fragment Identifiers</a></li>
+        <ul class="nav-list">
+            <li class="nav-list-item"><a href="#" title="Home page">Home</a></li>
+            <li class="nav-list-item"><a href="#about" title="About page">About us</a></li>
+            <li class="nav-list-item"><a href="#contact" title="Contact page">Contact us</a></li>
+            <li class="nav-list-item"><a href="http://www.cnn.com" target="_blank" title="The news">Today's News</a></li>
+            <li class="nav-list-item"><a href="https://www.w3.org/TR/html5/browsers.html#scroll-to-fragid" title="W3C fragment identifiers">Fragment Identifiers</a></li>
         </ul>   
    </nav>
    </header>
@@ -66,8 +66,7 @@
                 Articles can contain sections and sections can contain articles.
                 cillum dolore eu&nbsp;fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                 proident, sunt in culpa qui officia deserunt mollit anim id est <a href="http://ctrlcollective.com/" title="Ctrl Collective page" target="_blank">Ctrl Collective</a> laborum.
-            </p>
-            <p>Cillum dolore eu<br> Fugiat nulla pariatur<br> Excepteur sint occaecat</p>
+                </p>
           </section>
           <aside role="complementary">
           <h3>Subheading 4 (h3-tag)</h3>
@@ -85,8 +84,35 @@
           </aside>
       </article>
       </main>
-      <div class="divOne"></div>
-      <div class="divTwo"></div>
+      <div class="divOne">
+      <h3>Unorded List</h3>
+        <ul>
+          <li>One</li>
+          <li>Two</li>
+            <li>Three
+              <ul>
+              <li>3.1</li>
+              <li>3.2</li>
+              </ul>
+            </li>
+          <li>Four</li>
+        </ul>
+        <p>For nesting, open up an li and place another unordered list inbetween the tags.</p>
+      </div>
+      <div class="divTwo">
+      <h3>Ordered List</h3>
+        <ol start="6" reversed>
+          <li>One</li>
+          <li>Two</li>
+            <li>Three
+              <ol type="a"> <!-- i, I, 1, A -->
+              <li>3.1</li>
+              <li>3.2</li>
+              </ol>
+            </li>
+          <li>Four</li>
+        </ol>
+      </div>
       <div class="divThree"></div>
       <footer role="contentinfo" style="text-align: center">
         <p class="footer-text">Created by Bouses.</p>
