@@ -3,15 +3,14 @@ html {
 }
 
 body {
-  margin: 0px;
+  margin: 0 auto;
   height: 100%;
-  width: 100%;
+  width: 70%;
   /*background: linear-gradient(to right, #3a7bd5, #00d2ff);*/
   background-color: #A8DBA8;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 1em;
+  font: 100% Arial, Helvetica, sans-serif;
 }
 nav {
   height: 75px;
@@ -70,10 +69,9 @@ h3 {
 
 p {
   margin: 0px 30px 0px 30px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1em;
   line-height: 1.6; /*space between lines in a paragraph*/
   text-align: justify;
+  width: 60%;
 }
 
 pre {
