@@ -88,6 +88,10 @@ pre {
     float: left;
 }
 
+li {
+  color: #ddd;
+}
+
 li a {
     display: block;
     padding: 30px;
@@ -132,9 +136,7 @@ footer {
 
 .divOne{
   height: 600px;
-  background-color: #A8DBA8;
-  width: 70%;
-  margin: 0 auto;
+  background-color: #79BD9A;
 }
 .divTwo{
   height: 600px;
@@ -144,6 +146,11 @@ footer {
   height: 600px;
   background-color: #79BD9A;
 }
+.divOneText{
+  width: 70%;
+  margin: 0 auto;
+}
+
 .divTwoText{
   width: 70%;
   margin: 0 auto;
