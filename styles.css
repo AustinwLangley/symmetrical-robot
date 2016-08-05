@@ -10,6 +10,8 @@ body {
   background-color: #A8DBA8;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1em;
 }
 nav {
   height: 75px;
@@ -27,10 +29,14 @@ article {
 
 nav a {
   text-decoration: none;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1em;
 }
 
 h1 {
   text-align: center;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2em;
 }
 
 h1 a {
@@ -48,10 +54,14 @@ a:hover {
 
 h2 {
   margin-left: 10px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2em;
 }
 
 h3 {
   margin-left: 20px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2em; /*"em" is a relative unit of measurement.  Telling the user agent, whatever your default font size is, give me twice that.  Good for responsive designs.*/     
 }
 
 p {
@@ -127,7 +137,15 @@ footer {
 }
 .divThree{
   height: 600px;
-  background-color: #3B8686;
+  background-color: #79BD9A;
+}
+.divTwoText{
+  width: 70%;
+  margin: 0 auto;
+}
+.divThreeText{
+  width: 70%;
+  margin: 0 auto;
 }
 
 .footer-text {
