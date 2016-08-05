@@ -118,7 +118,8 @@ footer {
 .divOne{
   height: 600px;
   background-color: #A8DBA8;
-  margin: 0px;
+  width: 70%;
+  margin: 0 auto;
 }
 .divTwo{
   height: 600px;
