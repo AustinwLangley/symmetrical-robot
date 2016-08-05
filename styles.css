@@ -154,8 +154,9 @@ footer {
 }
 
 .footer-text {
-  padding: 10px;
+  padding-top: 10px;
   text-align: center;
+  width: 90%;
 }
 
 #back-top {
