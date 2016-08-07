@@ -5,6 +5,7 @@
     <meta name="description" content="This is a test HTML project">
     <title>Symmetrical Robot</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="_scripts/tabs.js"></script>
     <style>
       h3.heading-one {
          color: #FF6600;
@@ -37,7 +38,33 @@
                 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. <b>Excepteur</b> sint occaecat cupidatat non
                 <b>Link Notes:</b>  Href stands for Hypertext reference.  href = Hypertext Reference.  target="_blank" title="Control Collective".  rel attribute relationship between target object to link object.  Title attribute is most common, gives more meaning for search engines and assited devises and other content readers. One a tag can wrap around a Heading 1 and a paragraph, but it is not supported by all browsers. <a href="styles.css" download="CSS">Download CSS</a>
-              
+              <h3>Cool Images</h3>
+              <div id="tabContainer">
+              <div id="tabs">
+                <ul>
+                  <li id="tab1"><a href="#tabPanel1">Image One</a></li>
+                  <li id="tab2"><a href="#tabPanel2">Image Two</a></li>
+                  <li id="tab3"><a href="#tabPanel3">Image Three</a></li>
+                </ul>
+              </div>
+              <div id="containers">
+                <div id="tabPanel1">
+                  <h4>Image One</h4>
+                  <img src="image_1.jpeg" height=100% width=100%>
+                </div>
+                <div id="tabPanel2">
+                  <h4>Image Two</h4>
+                  <img src="Image_two.jpeg" height=100% width=100%>
+                </div>
+                <div id="tabPanel3">
+                  <h4>Image Three</h4>
+                  <img src="Image_three.jpeg" height=100% width=100%>
+                </div>
+              </div>
+              </div>
+
+
+
                 <div class="code">
                 My First Program ever in JavaScript:
                 <pre><code>var string = "Hello World!";
@@ -137,10 +164,5 @@
         <p class="footer-text">Created by Bouses.</p>
         <p class="footer-text"><a href="#top" title="back to the top" id="back-top">Back to top</a></p>  
       </footer>
-      <script type="text/javascript">
-         window.onload = function() {
-           alert("Hello World");
-         }
-      </script>
   </body>
 </html>

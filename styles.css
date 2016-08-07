@@ -173,6 +173,59 @@ footer {
 }
 
 #back-top {
-
   padding: 20px;
 }
+
+#tabContainer h4 {
+  color: rgb(83, 104, 138);
+  font-size: 2em;
+}
+
+#tabs{
+  height:30px;
+  overflow:hidden;
+}
+
+#tabs > ul{
+  font: 1em;
+  list-style:none;
+}
+#tabs ul, #tabs li {
+  margin:0;
+  padding:0;
+}
+
+#tabs > ul > li{
+  margin:0 2px 0 0;
+  padding:7px 10px;
+  display:block;
+  float:left;
+  color:#FFF;
+  border-top-left-radius:4px;
+  border-top-right-radius: 4px;
+  background: #CCC;
+}
+
+#tabs > ul > li:hover{
+  background: white; 
+  cursor:pointer;
+}
+
+#tabs > ul > .active{
+  background: white; /* old browsers */
+  cursor:pointer;
+}
+
+#containers div {
+  background: white;
+  padding:10px 10px 25px;
+  margin:0;
+  color:#333;
+}
+#tabs a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
