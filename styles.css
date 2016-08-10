@@ -75,7 +75,7 @@ p {
 }
 
 pre {
-    text-align: center;
+    text-align: left;
 }
 
 hr {
@@ -139,6 +139,12 @@ footer {
   text-align: center;
   margin: 50px auto;
   border-radius: 10px;
+}
+
+.code-container {
+  margin: 0 auto;
+  padding-left: 50px;
+  width: 300px;
 }
 
 .divOne{
