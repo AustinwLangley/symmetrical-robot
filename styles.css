@@ -82,6 +82,10 @@ hr {
   margin-top: 30px;
 }
 
+iframe {
+  margin: 20px 0px;
+}
+
 .nav-list {
     list-style-type: none;
     margin: 0;
