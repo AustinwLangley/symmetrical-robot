@@ -84,6 +84,9 @@ hr {
 
 iframe {
   margin: 20px 0px;
+  border: 2px solid grey;
+  height: 600px;
+  width: 100%;
 }
 
 .nav-list {
