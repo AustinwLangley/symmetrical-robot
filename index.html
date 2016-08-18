@@ -208,6 +208,7 @@ alert(string);
           <input type="submit">
         </form>
       </div>
+      <hr>
       <p>Enter Text</p>
       <form>
         <textarea name="message" rows="10" cols="30">
@@ -215,9 +216,39 @@ alert(string);
         </textarea>
         <input type="submit">
       </form>
-
+      <hr>
       <p>Button Element</p>
       <button type="button" onclick="alert('Hello User!')">Click Me!</button>
+      <hr>
+      <h5>Enter in a major city</h5>
+      <form>
+         <input list="city" name="city">
+         <datalist id="city">
+           <option value="New York">
+           <option value="Los Angeles">
+           <option value="San Francisco">
+           <option value="Charlotte">
+           <option value="Chicago">
+         </datalist>
+         <input type="submit">
+      </form>
+      <hr>
+      <form oninput="x.value=parseInt(a.value)+parseInt(b.value), y.value=parseInt(a.value)">
+        <div>
+        0
+        <input type="range"  id="a" name="a" value="50">
+        100
+        </div>
+        <br>
+        <output name="y" for="a"></output>
+        +
+        <input type="number" id="b" name="b" value="50">
+        =
+        <output name="x" for="a b"></output>
+        <br><br>
+        <input type="submit">
+      </form>
+      <hr>
 
       <footer role="contentinfo" style="text-align: center">
         <p class="footer-text">Created by Bouses.</p>
